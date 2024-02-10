@@ -29,6 +29,9 @@
 }
 
 .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid;
     border-radius: 15px;
     height: 45px;
@@ -80,8 +83,10 @@
     width: 154px;
     height: 61px;
     margin-top: 3px;
+    
 }
 
 button {
     background-color: grey;
 }
+
